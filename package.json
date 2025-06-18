@@ -1,0 +1,23 @@
+{
+  "name": "whatsscrapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "create-table": "node src/db/create-table.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "config": "^4.0.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "http-status": "^2.1.0",
+    "mysql2": "^3.14.1",
+    "puppeteer": "^24.10.1",
+    "sequelize": "^6.37.7"
+  }
+}

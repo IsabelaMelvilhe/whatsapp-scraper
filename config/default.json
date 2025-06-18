@@ -1,0 +1,9 @@
+{
+    "mysql": {
+        "database": "whatsapp",
+        "user": "user",
+        "password": "password",
+        "host": "localhost",
+        "port": 3306
+    }
+}
